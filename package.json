@@ -1,13 +1,13 @@
 {
-  "name": "AB_accordion",
+  "name": "AB_code_wrap",
   "version": "1.0.0",
-  "description": "Accordion component styles and JavaScript",
+  "description": "Add window UI styles to code markup",
   "author": {
     "name": "Andy Beckmann",
     "email": "contact@andybeckmann.com",
     "url": "https://www.andybeckmann.com"
   },
-  "repository": "github:andybeckmann/AB_accordion",
+  "repository": "github:andybeckmann/AB_code_wrap",
   "license": "MIT",
   "private": true,
   "devDependencies": {
