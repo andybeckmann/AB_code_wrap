@@ -8,6 +8,7 @@
         <title>AB_code_wrap</title>
     </head>
     <body>
+        <h1>AB_code_wrap</h1>
         <pre><code class="language-html">&lt;div class="accordion"&gt;
     &lt;div class="item current-item"&gt;
         &lt;div class="header"&gt;Header Text&lt;/div&gt;
@@ -16,6 +17,26 @@
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;</code></pre>
+        <pre><code class="language-css">.item .body {
+    height: 0;
+    overflow: hidden;
+    transition: 1s ease height;
+}
+
+.item.current-item .body {
+    height: auto;
+}</code></pre>
+<pre><code class="language-javascript">function toggleDisplay() {
+
+    if (this.parentNode.classList.contains('current-item')) {
+
+        this.closest('.item').classList.remove('current-item');
+
+    } else {
+
+        this.closest('.item').classList.add('current-item');
+    }
+}</code></pre>
         <script src="js/scripts.js"></script>
     </body>
 </html>
