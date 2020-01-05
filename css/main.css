@@ -16,10 +16,10 @@ body {
   padding: 20px 35px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
+/**
+ * AB_code_wrap
+ * version: 1.0.0
+ */
 pre {
   margin: 0;
   padding: 0;
