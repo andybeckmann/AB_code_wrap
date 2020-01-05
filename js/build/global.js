@@ -1,4 +1,9 @@
 
+/**
+ * AB_code_wrap
+ * version: 1.0.0
+ */
+
 var code = document.getElementsByTagName('code');
 
 for (var i=0; i<code.length; i++) {
