@@ -1,13 +1,13 @@
 {
-  "name": "AB_code_wrap",
+  "name": "AB_accordion",
   "version": "1.0.0",
-  "description": "Files for starting a web project with SCSS using Grunt",
+  "description": "Accordion component styles and JavaScript",
   "author": {
     "name": "Andy Beckmann",
     "email": "contact@andybeckmann.com",
     "url": "https://www.andybeckmann.com"
   },
-  "repository": "github:andybeckmann/AB_web_tools",
+  "repository": "github:andybeckmann/AB_accordion",
   "license": "MIT",
   "private": true,
   "devDependencies": {
@@ -15,9 +15,6 @@
     "grunt-cli": "*",
     "grunt-dart-sass": "*",
     "grunt-contrib-cssmin": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-concat": "*",
-    "grunt-contrib-uglify": "*",
     "grunt-contrib-watch": "*",
     "load-grunt-tasks": "*"
   }
